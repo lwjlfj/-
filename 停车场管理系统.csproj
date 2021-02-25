@@ -46,16 +46,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmIicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIicense.Designer.cs">
+      <DependentUpon>FrmIicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPark.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmPark.Designer.cs">
       <DependentUpon>FrmPark.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecord.Designer.cs">
+      <DependentUpon>FrmRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegard.Designer.cs">
+      <DependentUpon>FrmRegard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStall.Designer.cs">
+      <DependentUpon>FrmStall.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmIicense.resx">
+      <DependentUpon>FrmIicense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPark.resx">
       <DependentUpon>FrmPark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecord.resx">
+      <DependentUpon>FrmRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegard.resx">
+      <DependentUpon>FrmRegard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStall.resx">
+      <DependentUpon>FrmStall.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

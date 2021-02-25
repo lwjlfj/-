@@ -16,7 +16,7 @@ namespace 停车场管理系统
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPark());
+            Application.Run(new FrmLogin());
         }
     }
 }
